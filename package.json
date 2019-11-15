@@ -2,11 +2,11 @@
     "name": "gotemplate",
     "displayName": "gotemplate-syntax",
     "description": "Language support for go text/template",
-    "version": "0.3.0",
-    "publisher": "casualjim",
+    "version": "0.3.1",
+    "publisher": "rwebler",
     "repository": {
         "type": "git",
-        "url": "https://github.com/casualjim/vscode-gotemplate"
+        "url": "https://github.com/rwebler/vscode-gotemplate"
     },
     "engines": {
         "vscode": "^0.10.1"
@@ -82,19 +82,6 @@
                 "configuration": "./gotemplate.configuration.json"
             },
             {
-                "id": "gotemplate",
-                "aliases": [
-                    "Golang Text Template",
-                    "gotemplate"
-                ],
-                "extensions": [
-                    ".gotmpl",
-                    ".tmpl",
-                    ".tpl"
-                ],
-                "configuration": "./gotemplate.configuration.json"
-            },
-            {
                 "id": "gohtml",
                 "aliases": [
                     "Golang HTML Template",
@@ -108,6 +95,19 @@
                     ".layout.tmpl",
                     ".page.tmpl",
                     ".partial.tmpl"
+                ],
+                "configuration": "./gotemplate.configuration.json"
+            },
+            {
+                "id": "gotemplate",
+                "aliases": [
+                    "Golang Text Template",
+                    "gotemplate"
+                ],
+                "extensions": [
+                    ".gotmpl",
+                    ".tmpl",
+                    ".tpl"
                 ],
                 "configuration": "./gotemplate.configuration.json"
             },
