@@ -104,7 +104,10 @@
                     ".html",
                     ".gohtml",
                     ".html.tmpl",
-                    ".html.tpl"
+                    ".html.tpl",
+                    ".layout.tmpl",
+                    ".page.tmpl",
+                    ".partial.tmpl"
                 ],
                 "configuration": "./gotemplate.configuration.json"
             },
